@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: blueviolet;
+}
+
+.sidebar-pos{
+    position: absolute;
+
+}
+
+.img-sidebar img{
+    width: 80%;
+    border: 6px solid #a265da;
+    border-radius: 50%;
+}
+
+.menu{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    font-size: 19px;
+    display: block;
+    text-decoration: none;
+
+}
